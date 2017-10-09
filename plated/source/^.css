@@ -1,0 +1,41 @@
+#^css same=append
+
+*		{box-sizing:border-box;}
+body	{background:#fff; font-family:'Signika', sans-serif; font-size:16px; line-height:24px; font-weight:300; color:#313131; width:100%; padding:0; margin:0 auto;}
+h1		{font-size:4em; font-weight:normal; color:#313131;}
+h2		{font-size:2em; font-weight:normal;}
+
+a		{color:#23a19a;}
+
+a.bar	{color:#f7f4fd; background-color:#3a3a3a; border-radius:4px; padding:5px; text-decoration:none; border-bottom:none;}
+a.bar:hover	{background-color:#1400ff; border-bottom:none;}
+
+
+.nav	{display:inline-block; vertical-align:top; width:50%;}
+.nav:nth-of-type(2)	{text-align:right;}
+
+.blog_line, .blog_wrap	{border-top:1px dashed #1400ff; margin-top:40px; margin-bottom:40px; position:relative;}
+.blog_info	{position:absolute; right:10px; top:10px;}
+
+
+/*	index.html	*/
+
+.main_wrap	{width:960px; margin:0 auto;}
+.main_gif, .main_intro	{display:inline-block; vertical-align:top;}
+.main_gif	{width:400px; height:400px; background:url('{_root}data/loc.gif')center center no-repeat;}
+.main_intro	{width:510px; font-size:20px; line-height:32px; margin-left:50px; margin-top:65px;}
+.main_intro p:nth-of-type(odd)	{font-size:24px; font-weight:400;}
+
+a.join		{display:block; border-radius:4px; text-align:center; padding:10px 0; color:#fff; background-color:#e53334; text-decoration:none;}
+a.join:hover{background-color:#E45152;}
+
+
+/*	baby devices	*/
+@media screen and (max-width: 1024px) {
+
+.main_gif, .main_intro	{display:block;}
+.main_gif {width:960px; height:500px; background:url(/ladiesofcodeleeds/data/loc.gif)80px center no-repeat; background-size:800px; margin-top:60px;}
+.main_intro	{width:700px; font-size:42px; line-height:58px; margin:0 auto; margin-bottom:100px;}
+.main_intro p:nth-of-type(odd)	{font-size:48px; line-height:64px;}
+
+}

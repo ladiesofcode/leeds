@@ -1,0 +1,28 @@
+{
+ "_dirname": "/ladiesofcodeleeds/",
+ "_filename": "/ladiesofcodeleeds/",
+ "_flags": {
+  "body": {
+   "trim": "ends"
+  },
+  "css": {
+   "same": "append"
+  },
+  "head": {
+   "trim": "ends"
+  },
+  "html": {
+   "trim": "ends"
+  },
+  "title": {
+   "trim": "ends"
+  }
+ },
+ "_root": "/ladiesofcodeleeds/",
+ "_sourcename": "",
+ "body": "Body is missing.",
+ "css": "\n*\t\t{box-sizing:border-box;}\nbody\t{background:#fff; font-family:'Signika', sans-serif; font-size:16px; line-height:24px; font-weight:300; color:#313131; width:100%; padding:0; margin:0 auto;}\nh1\t\t{font-size:4em; font-weight:normal; color:#313131;}\nh2\t\t{font-size:2em; font-weight:normal;}\n\na\t\t{color:#23a19a;}\n\na.bar\t{color:#f7f4fd; background-color:#3a3a3a; border-radius:4px; padding:5px; text-decoration:none; border-bottom:none;}\na.bar:hover\t{background-color:#1400ff; border-bottom:none;}\n\n\n.nav\t{display:inline-block; vertical-align:top; width:50%;}\n.nav:nth-of-type(2)\t{text-align:right;}\n\n.blog_line, .blog_wrap\t{border-top:1px dashed #1400ff; margin-top:40px; margin-bottom:40px; position:relative;}\n.blog_info\t{position:absolute; right:10px; top:10px;}\n\n\n/*\tindex.html\t*/\n\n.main_wrap\t{width:960px; margin:0 auto;}\n.main_gif, .main_intro\t{display:inline-block; vertical-align:top;}\n.main_gif\t{width:400px; height:400px; background:url('{_root}data/loc.gif')center center no-repeat;}\n.main_intro\t{width:510px; font-size:20px; line-height:32px; margin-left:50px; margin-top:65px;}\n.main_intro p:nth-of-type(odd)\t{font-size:24px; font-weight:400;}\n\na.join\t\t{display:block; border-radius:4px; text-align:center; padding:10px 0; color:#fff; background-color:#e53334; text-decoration:none;}\na.join:hover{background-color:#E45152;}\n\n\n/*\tbaby devices\t*/\n@media screen and (max-width: 1024px) {\n\n.main_gif, .main_intro\t{display:block;}\n.main_gif {width:960px; height:500px; background:url(/ladiesofcodeleeds/data/loc.gif)80px center no-repeat; background-size:800px; margin-top:60px;}\n.main_intro\t{width:700px; font-size:42px; line-height:58px; margin:0 auto; margin-bottom:100px;}\n.main_intro p:nth-of-type(odd)\t{font-size:48px; line-height:64px;}\n\n}\n",
+ "head": "<title>{title}</title>\n<style>\n@import url('https://fonts.googleapis.com/css?family=Signika:300,400');\n{css}\n</style>",
+ "html": "<html>\n<head>{head}</head>\n<body>{body}</body>\n</html>",
+ "title": "Title is missing."
+}
