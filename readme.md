@@ -12,6 +12,7 @@ Do [fill out this form](https://goo.gl/forms/AhdVtBRywo0NiYyq2) if you would lik
 
 
 ## Previous meetups
++ [January 2018 - January Ladies of Code Leeds meetup](/meetups/2018-january)
 + [October 2017 - Ladies Of Code October Meetup](/meetups/2017-october)
 + [August 2017 - Ladies of Code Summer night out](https://www.meetup.com/Ladies-of-Code-Leeds/events/242005894/)
 + [May 2017 - Ladies of Code Leeds meetup](/meetups/2017-may)
